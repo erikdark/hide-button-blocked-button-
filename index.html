@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Buttons</title>
+    <style>
+        
+        .hidden-button {
+            width: 0;
+            height: 0;
+            overflow: hidden;
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        
+        .invisible-disabled-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .invisible-disabled-button:disabled {
+            opacity: 1;
+            cursor: default;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Page for Selenium</h1>
+
+    
+    <button class="invisible-disabled-button" disabled>Click Me!</button>
+
+    
+    <button class="hidden-button">Hidden Button</button>
+</body>
+</html>
